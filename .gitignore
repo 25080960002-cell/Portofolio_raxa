@@ -1,0 +1,22 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Dependencies & build (kalau nanti pakai tooling)
+node_modules/
+dist/
+.cache/
+
+# Logs & environment
+*.log
+.env
+.env.local
+
+# File sementara
+*.tmp
