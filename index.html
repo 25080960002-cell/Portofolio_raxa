@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Raka Aditya — Product Designer &amp; Frontend Engineer</title>
+  <meta name="description" content="Portofolio Raka Aditya, product designer & frontend engineer asal Jakarta. Merancang dan membangun produk digital yang jernih, cepat, dan berkarakter." />
+  <meta name="theme-color" content="#0A0A0B" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="author" content="Raka Aditya" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Raka Aditya — Product Designer & Frontend Engineer" />
+  <meta property="og:description" content="Merancang antarmuka yang terasa manusiawi, dibangun dengan presisi." />
+  <meta property="og:locale" content="id_ID" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Raka Aditya",
+    "jobTitle": "Product Designer & Frontend Engineer",
+    "address": { "@type": "PostalAddress", "addressLocality": "Jakarta", "addressCountry": "ID" },
+    "email": "hello@raka.design",
+    "url": "https://raka.design"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"></span></div>
+  <div class="scroll-progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Raka Aditya — kembali ke atas">
+        <span class="brand__mark" aria-hidden="true">R</span>
+        <span class="brand__text">Raka<span class="brand__dot">.</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navigasi utama">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#work" data-nav>Karya</a></li>
+          <li><a class="nav__link" href="#about" data-nav>Tentang</a></li>
+          <li><a class="nav__link" href="#services" data-nav>Layanan</a></li>
+          <li><a class="nav__link" href="#process" data-nav>Proses</a></li>
+          <li><a class="nav__link" href="#contact" data-nav>Kontak</a></li>
+        </ul>
+        <div class="nav__footer">
+          <a class="nav__mail" href="mailto:hello@raka.design">hello@raka.design</a>
+          <ul class="socials" aria-label="Media sosial">
+            <li><a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">Dribbble</a></li>
+            <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-btn theme-toggle" id="themeToggle" type="button" aria-label="Ganti tema" aria-pressed="false">
+          <svg class="icon icon--sun" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.2 5.2l1.6 1.6M17.2 17.2l1.6 1.6M18.8 5.2l-1.6 1.6M6.8 17.2l-1.6 1.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+          <svg class="icon icon--moon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M20 14.2A8.2 8.2 0 0 1 9.8 4a8.4 8.4 0 1 0 10.2 10.2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <a class="btn btn--primary btn--sm header__cta" href="#contact">
+          <span>Hubungi saya</span>
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow reveal">
+              <span class="pulse" aria-hidden="true"></span>
+              Portofolio 2026 — Jakarta, Indonesia
+            </p>
+
+            <h1 class="hero__title">
+              <span class="hero__line reveal" style="--d:60ms">Desain penuh</span>
+              <span class="hero__line reveal" style="--d:130ms"><em>karakter</em>, kode</span>
+              <span class="hero__line reveal" style="--d:200ms">tanpa kompromi.</span>
+            </h1>
+
+            <div class="hero__bottom">
+              <p class="hero__desc reveal" style="--d:280ms">
+                Saya Raka — product designer &amp; frontend engineer. Saya membantu tim
+                produk mengubah masalah yang rumit menjadi antarmuka yang jernih,
+                cepat, dan menyenangkan dipakai.
+              </p>
+              <div class="hero__cta reveal" style="--d:340ms">
+                <a class="btn btn--primary" href="#work">
+                  <span>Lihat karya saya</span>
+                  <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+                <a class="btn btn--ghost" href="#contact">Mari bicara</a>
+              </div>
+            </div>
+          </div>
+
+          <aside class="card-profile reveal" style="--d:260ms" aria-label="Kartu profil">
+            <div class="card-profile__top">
+              <span class="status"><span class="pulse" aria-hidden="true"></span> Tersedia Feb 2026</span>
+              <span class="card-profile__mono">01</span>
+            </div>
+
+            <div class="card-profile__identity">
+              <div class="avatar">
+                <span class="avatar__ring" aria-hidden="true"></span>
+                <span class="avatar__initials">RA</span>
+              </div>
+              <div>
+                <p class="card-profile__name">Raka Aditya</p>
+                <p class="card-profile__role">Product Designer<br/>&amp; Frontend Engineer</p>
+              </div>
+            </div>
+
+            <dl class="card-profile__meta">
+              <div><dt>Lokasi</dt><dd>Jakarta, ID</dd></div>
+              <div><dt>Waktu lokal</dt><dd data-clock>—</dd></div>
+              <div><dt>Fokus</dt><dd>Product · Web · Motion</dd></div>
+            </dl>
+
+            <a class="card-profile__link" href="#contact">
+              <span>Jadwalkan panggilan 30 menit</span>
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </aside>
+        </div>
+      </div>
+
+      <div class="marquee" aria-label="Bidang keahlian">
+        <div class="marquee__track">
+          <div class="marquee__group">
+            <span>Product Design</span><span class="marquee__sep" aria-hidden="true">✳</span>
+            <span>Design System</span><span class="marquee__sep" aria-hidden="true">✳</span>
+            <span>React &amp; Next.js</span><span class="marquee__sep" aria-hidden="true">✳</span>
+            <span>Motion</span><span class="marquee__sep" aria-hidden="true">✳</span>
+            <span>Accessibility</span><span class="marquee__sep" aria-hidden="true">✳</span>
+            <span>TypeScript</span><span class="marquee__sep" aria-hidden="true">✳</span>
+          </div>
+          <div class="marquee__group" aria-hidden="true">
+            <span>Product Design</span><span class="marquee__sep">✳</span>
+            <span>Design System</span><span class="marquee__sep">✳</span>
+            <span>React &amp; Next.js</span><span class="marquee__sep">✳</span>
+            <span>Motion</span><span class="marquee__sep">✳</span>
+            <span>Accessibility</span><span class="marquee__sep">✳</span>
+            <span>TypeScript</span><span class="marquee__sep">✳</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURED ================= -->
+    <section class="section section--featured" aria-labelledby="featuredTitle">
+      <div class="container">
+        <div class="feature reveal">
+          <div class="feature__art">
+            <div class="feature__browser">
+              <div class="browser__bar">
+                <span class="browser__dots"><i></i><i></i><i></i></span>
+                <span class="browser__url">arunika.app/overview</span>
+                <span class="browser__badge">Live</span>
+              </div>
+              <div class="browser__body">
+                <div class="mock-side">
+                  <span class="mock-logo"></span>
+                  <i></i><i></i><i></i><i></i><i></i>
+                </div>
+                <div class="mock-main">
+                  <div class="mock-head">
+                    <span class="mock-title"></span>
+                    <span class="mock-pill"></span>
+                  </div>
+                  <div class="mock-kpis">
+                    <div class="kpi"><span></span><strong>+28,4%</strong></div>
+                    <div class="kpi"><span></span><strong>1,2 GWh</strong></div>
+                    <div class="kpi kpi--accent"><span></span><strong>94</strong></div>
+                  </div>
+                  <div class="mock-chart">
+                    <i style="--h:38%"></i><i style="--h:58%"></i><i style="--h:44%"></i>
+                    <i style="--h:72%"></i><i style="--h:52%"></i><i style="--h:86%"></i>
+                    <i style="--h:64%"></i><i style="--h:94%"></i><i style="--h:74%"></i>
+                    <i style="--h:100%"></i><i style="--h:82%"></i><i style="--h:90%"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature__info">
+            <p class="eyebrow"><span class="eyebrow__num">01</span> Studi kasus unggulan</p>
+            <h2 class="feature__title" id="featuredTitle">Arunika</h2>
+            <p class="feature__desc">
+              Platform analitik energi untuk tim operasional. Saya memimpin redesain
+              dashboard, membangun design system lintas produk, dan memotong waktu
+              muat 62% pada rilis pertama.
+            </p>
+            <ul class="tags">
+              <li>Product Design</li><li>Design System</li><li>React</li>
+            </ul>
+            <div class="feature__footer">
+              <a class="link-arrow" href="#work">
+                <span>Baca studi kasus</span>
+                <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <span class="feature__year">2025 — 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WORK ================= -->
+    <section class="section" id="work" aria-labelledby="workTitle">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal"><span class="eyebrow__num">02</span> Karya terpilih</p>
+            <h2 class="section-title reveal" id="workTitle" style="--d:60ms">Beberapa hal yang<br/>saya banggakan.</h2>
+          </div>
+          <a class="link-arrow reveal" href="#contact" style="--d:120ms">
+            <span>Arsip lengkap</span>
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-card reveal" style="--d:0ms">
+            <a class="work-card__link" href="#contact" aria-label="Kirana Pay — studi kasus">
+              <div class="art art--kirana">
+                <div class="art__grid" aria-hidden="true"></div>
+                <div class="art__phone">
+                  <span class="art__phone-notch"></span>
+                  <span class="art__balance-label"></span>
+                  <span class="art__balance"></span>
+                  <span class="art__row"></span>
+                  <span class="art__row art__row--short"></span>
+                  <span class="art__cta"></span>
+                </div>
+                <span class="art__index">02</span>
+                <span class="art__pill">Fintech · Mobile</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3>Kirana Pay</h3>
+                  <p>Dompet digital dengan onboarding 40% lebih singkat.</p>
+                </div>
+                <span class="work-arrow" aria-hidden="true">
+                  <svg viewBox="0 0 16 16" fill="none"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </div>
+              <ul class="tags"><li>UI/UX</li><li>Mobile</li><li>Motion</li></ul>
+            </a>
+          </article>
+
+          <article class="work-card reveal" style="--d:80ms">
+            <a class="work-card__link" href="#contact" aria-label="Nusantara Coffee — studi kasus">
+              <div class="art art--nusantara">
+                <div class="art__grid" aria-hidden="true"></div>
+                <div class="art__circle" aria-hidden="true"></div>
+                <div class="art__type">N</div>
+                <span class="art__index">03</span>
+                <span class="art__pill">E-commerce · Art direction</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3>Nusantara Coffee</h3>
+                  <p>Identitas digital untuk rumah sangrai specialty di Bandung.</p>
+                </div>
+                <span class="work-arrow" aria-hidden="true">
+                  <svg viewBox="0 0 16 16" fill="none"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </div>
+              <ul class="tags"><li>Web</li><li>Art Direction</li><li>Shopify</li></ul>
+            </a>
+          </article>
+
+          <article class="work-card reveal" style="--d:0ms">
+            <a class="work-card__link" href="#contact" aria-label="Loka Health — studi kasus">
+              <div class="art art--loka">
+                <div class="art__grid" aria-hidden="true"></div>
+                <div class="art__rings" aria-hidden="true"><span></span><span></span><span></span></div>
+                <span class="art__index">04</span>
+                <span class="art__pill">Healthtech · Web app</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3>Loka Health</h3>
+                  <p>Telemedicine yang aksesibel untuk 120+ klinik mitra.</p>
+                </div>
+                <span class="work-arrow" aria-hidden="true">
+                  <svg viewBox="0 0 16 16" fill="none"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </div>
+              <ul class="tags"><li>Design System</li><li>WCAG 2.2</li><li>Next.js</li></ul>
+            </a>
+          </article>
+
+          <article class="work-card reveal" style="--d:80ms">
+            <a class="work-card__link" href="#contact" aria-label="Verne Type — studi kasus">
+              <div class="art art--verne">
+                <div class="art__grid" aria-hidden="true"></div>
+                <div class="art__glyph" aria-hidden="true">Aa</div>
+                <span class="art__index">05</span>
+                <span class="art__pill">Editorial · Website</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3>Verne Type</h3>
+                  <p>Situs penjualan typeface dengan type-tester real-time.</p>
+                </div>
+                <span class="work-arrow" aria-hidden="true">
+                  <svg viewBox="0 0 16 16" fill="none"><path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </div>
+              <ul class="tags"><li>Frontend</li><li>Editorial</li><li>Motion</li></ul>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section section--about" id="about" aria-labelledby="aboutTitle">
+      <div class="container about">
+        <div class="about__aside reveal">
+          <div class="about__portrait" aria-hidden="true">
+            <div class="about__portrait-glow"></div>
+            <span class="about__portrait-initials">RA</span>
+            <span class="about__portrait-caption">Jakarta · 2026</span>
+          </div>
+          <div class="about__note">
+            <span class="pulse" aria-hidden="true"></span>
+            <p>Terbuka untuk kolaborasi jangka panjang &amp; proyek lepas.</p>
+          </div>
+        </div>
+
+        <div class="about__body">
+          <p class="eyebrow reveal"><span class="eyebrow__num">03</span> Tentang</p>
+          <h2 class="section-title reveal" id="aboutTitle" style="--d:60ms">Saya bekerja di antara<br/><em>desain</em> dan <em>kode</em>.</h2>
+
+          <div class="about__text reveal" style="--d:120ms">
+            <p>
+              Delapan tahun terakhir saya habiskan bersama tim produk di fintech,
+              energi, dan kesehatan — dari riset pengguna pertama sampai baris kode
+              terakhir sebelum rilis. Saya percaya produk yang baik lahir dari
+              keputusan kecil yang diuji, bukan dari slide yang megah.
+            </p>
+            <p>
+              Keseharian saya berputar di Figma, React, dan sistem desain yang rapi.
+              Saya suka detail tipografi, transisi 200ms yang tepat, dan antarmuka
+              yang tetap masuk akal saat dibuka dengan keyboard.
+            </p>
+          </div>
+
+          <ul class="chips reveal" style="--d:180ms" aria-label="Perangkat kerja">
+            <li>Figma</li><li>React</li><li>TypeScript</li><li>Next.js</li>
+            <li>Framer Motion</li><li>Tailwind</li><li>Storybook</li><li>GSAP</li>
+          </ul>
+
+          <div class="stats reveal" style="--d:240ms">
+            <div class="stat">
+              <span class="stat__num" data-count="8" data-suffix="+">8+</span>
+              <span class="stat__label">Tahun pengalaman</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="46" data-suffix="">46</span>
+              <span class="stat__label">Proyek dikirim</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="18" data-suffix="">18</span>
+              <span class="stat__label">Klien &amp; tim</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="99" data-suffix="">99</span>
+              <span class="stat__label">Rata-rata Lighthouse</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section" id="services" aria-labelledby="servicesTitle">
+      <div class="container">
+        <div class="section-head section-head--stack">
+          <p class="eyebrow reveal"><span class="eyebrow__num">04</span> Layanan</p>
+          <h2 class="section-title reveal" id="servicesTitle" style="--d:60ms">Yang bisa saya<br/>bantu kerjakan.</h2>
+        </div>
+
+        <div class="service-list">
+          <article class="service reveal" style="--d:0ms">
+            <span class="service__num">01</span>
+            <div class="service__body">
+              <h3>Product Design</h3>
+              <p>Riset pengguna, alur, wireframe, hingga UI final dan prototipe yang siap diuji.</p>
+            </div>
+            <ul class="tags service__tags"><li>Riset</li><li>UI/UX</li><li>Prototype</li></ul>
+          </article>
+
+          <article class="service reveal" style="--d:60ms">
+            <span class="service__num">02</span>
+            <div class="service__body">
+              <h3>Design System</h3>
+              <p>Token, komponen, dan dokumentasi yang membuat tim bergerak lebih cepat dan konsisten.</p>
+            </div>
+            <ul class="tags service__tags"><li>Token</li><li>Storybook</li><li>Dokumentasi</li></ul>
+          </article>
+
+          <article class="service reveal" style="--d:120ms">
+            <span class="service__num">03</span>
+            <div class="service__body">
+              <h3>Frontend Engineering</h3>
+              <p>Implementasi antarmuka dengan React, TypeScript, dan animasi yang tidak berlebihan.</p>
+            </div>
+            <ul class="tags service__tags"><li>React</li><li>Next.js</li><li>Motion</li></ul>
+          </article>
+
+          <article class="service reveal" style="--d:180ms">
+            <span class="service__num">04</span>
+            <div class="service__body">
+              <h3>Performance &amp; A11y</h3>
+              <p>Audit Core Web Vitals dan aksesibilitas, lalu perbaikan yang terukur — bukan tebakan.</p>
+            </div>
+            <ul class="tags service__tags"><li>Core Web Vitals</li><li>WCAG 2.2</li><li>Audit</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROCESS ================= -->
+    <section class="section section--process" id="process" aria-labelledby="processTitle">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal"><span class="eyebrow__num">05</span> Proses</p>
+            <h2 class="section-title reveal" id="processTitle" style="--d:60ms">Empat langkah,<br/>tanpa drama.</h2>
+          </div>
+          <p class="section-lead reveal" style="--d:120ms">
+            Setiap tahap punya keluaran yang jelas, jadi Anda tahu persis
+            di mana proyek berada — dan apa yang berikutnya.
+          </p>
+        </div>
+
+        <ol class="process">
+          <li class="step reveal" style="--d:0ms">
+            <span class="step__num">01</span>
+            <h3>Discover</h3>
+            <p>Wawancara, audit produk, dan pemetaan masalah. Kita sepakati apa yang benar-benar perlu dipecahkan.</p>
+            <span class="step__meta">1–2 minggu</span>
+          </li>
+          <li class="step reveal" style="--d:80ms">
+            <span class="step__num">02</span>
+            <h3>Define</h3>
+            <p>Prioritas fitur, arsitektur informasi, dan kriteria sukses yang bisa diukur setelah rilis.</p>
+            <span class="step__meta">1 minggu</span>
+          </li>
+          <li class="step reveal" style="--d:160ms">
+            <span class="step__num">03</span>
+            <h3>Design</h3>
+            <p>Eksplorasi arah visual, prototipe interaktif, lalu uji ke pengguna sebelum masuk produksi.</p>
+            <span class="step__meta">3–6 minggu</span>
+          </li>
+          <li class="step reveal" style="--d:240ms">
+            <span class="step__num">04</span>
+            <h3>Deliver</h3>
+            <p>Implementasi, QA lintas perangkat, dan serah terima rapi bersama dokumentasi komponen.</p>
+            <span class="step__meta">2–4 minggu</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="section" aria-labelledby="quotesTitle">
+      <div class="container">
+        <div class="section-head section-head--stack">
+          <p class="eyebrow reveal"><span class="eyebrow__num">06</span> Kata mereka</p>
+          <h2 class="section-title reveal" id="quotesTitle" style="--d:60ms">Kepercayaan yang<br/>saya jaga.</h2>
+        </div>
+
+        <div class="quotes">
+          <figure class="quote reveal" style="--d:0ms">
+            <span class="quote__mark" aria-hidden="true">“</span>
+            <blockquote>Raka tidak hanya membuat layar terlihat bagus. Ia menanyakan hal-hal yang belum kami pikirkan, lalu mengubahnya jadi keputusan produk.</blockquote>
+            <figcaption>
+              <span class="quote__avatar" aria-hidden="true">DP</span>
+              <span><strong>Dinda Prameswari</strong><small>Head of Product, Kirana</small></span>
+            </figcaption>
+          </figure>
+
+          <figure class="quote reveal" style="--d:80ms">
+            <span class="quote__mark" aria-hidden="true">“</span>
+            <blockquote>Design system yang ia bangun masih dipakai dua tahun kemudian. Itu ukuran paling jujur dari hasil kerjanya.</blockquote>
+            <figcaption>
+              <span class="quote__avatar" aria-hidden="true">BS</span>
+              <span><strong>Bagas Santika</strong><small>Engineering Lead, Arunika</small></span>
+            </figcaption>
+          </figure>
+
+          <figure class="quote reveal" style="--d:160ms">
+            <span class="quote__mark" aria-hidden="true">“</span>
+            <blockquote>Komunikatif, tepat waktu, dan detailnya waras. Kami menaikkan konversi 31% setelah peluncuran ulang situs.</blockquote>
+            <figcaption>
+              <span class="quote__avatar" aria-hidden="true">NA</span>
+              <span><strong>Nadia Ardelia</strong><small>Founder, Nusantara Coffee</small></span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section section--contact" id="contact" aria-labelledby="contactTitle">
+      <div class="contact__glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="contact">
+          <div class="contact__intro">
+            <p class="eyebrow reveal"><span class="eyebrow__num">07</span> Kontak</p>
+            <h2 class="contact__title reveal" id="contactTitle" style="--d:60ms">
+              Punya proyek yang layak<br/>dikerjakan <em>dengan benar?</em>
+            </h2>
+            <p class="contact__desc reveal" style="--d:120ms">
+              Ceritakan sedikit konteksnya. Saya membalas dalam 1–2 hari kerja,
+              biasanya dengan pertanyaan yang lebih baik daripada jawaban cepat.
+            </p>
+
+            <div class="contact__direct reveal" style="--d:180ms">
+              <a class="contact__mail" href="mailto:hello@raka.design">hello@raka.design</a>
+              <button class="copy-btn" id="copyEmail" type="button" data-email="hello@raka.design">
+                <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="5.5" y="5.5" width="8" height="8" rx="1.8" stroke="currentColor" stroke-width="1.4"/><path d="M10.5 5.5v-1A1.5 1.5 0 0 0 9 3H4a1.5 1.5 0 0 0-1.5 1.5v5A1.5 1.5 0 0 0 4 11h1.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                <span>Salin</span>
+              </button>
+            </div>
+
+            <ul class="socials socials--lg reveal" style="--d:220ms" aria-label="Media sosial">
+              <li><a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">Dribbble <span aria-hidden="true">↗</span></a></li>
+              <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+              <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+            </ul>
+          </div>
+
+          <form class="form reveal" id="contactForm" style="--d:160ms" novalidate>
+            <div class="field">
+              <label for="name">Nama</label>
+              <input id="name" name="name" type="text" placeholder="Nama lengkap Anda" autocomplete="name" required />
+              <span class="field__error" data-error-for="name" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="nama@perusahaan.com" autocomplete="email" required />
+              <span class="field__error" data-error-for="email" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="budget">Perkiraan anggaran</label>
+              <select id="budget" name="budget">
+                <option value="">Pilih rentang</option>
+                <option>&lt; Rp 25 juta</option>
+                <option>Rp 25 – 60 juta</option>
+                <option>Rp 60 – 120 juta</option>
+                <option>&gt; Rp 120 juta</option>
+                <option>Belum ditentukan</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="4" placeholder="Apa yang sedang Anda bangun?" required></textarea>
+              <span class="field__error" data-error-for="message" aria-live="polite"></span>
+            </div>
+            <button class="btn btn--primary btn--block" type="submit">
+              <span>Kirim pesan</span>
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <p class="form__note">Form ini akan membuka aplikasi email Anda. Tidak ada data yang dikirim ke server.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__top">
+        <a class="brand brand--lg" href="#top" aria-label="Kembali ke atas">
+          <span class="brand__text">Raka<span class="brand__dot">.</span></span>
+        </a>
+        <p class="footer__tagline">Desain yang jelas.<br/>Kode yang rapi.</p>
+        <a class="to-top" href="#top">
+          <span>Kembali ke atas</span>
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 13V3M4 7l4-4 4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© <span data-year>2026</span> Raka Aditya. Dibuat di Jakarta.</p>
+        <nav aria-label="Navigasi footer">
+          <ul class="footer__nav">
+            <li><a href="#work">Karya</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#services">Layanan</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </nav>
+        <p class="footer__status"><span class="pulse" aria-hidden="true"></span> Tersedia untuk proyek baru</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
